@@ -1,2 +1,2 @@
-"Detta „r ett test" 
+"Detta ar ett test" 
 "# ITSLEARNING" 
