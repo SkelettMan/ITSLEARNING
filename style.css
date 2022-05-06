@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    height: 100%;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.menuBackground{
+    background-color: #FF9900;
+    width: 100%;
+    height: 250px;
+    margin: auto;
+}
+
+.itslearning{
+    font-family: "Courier New";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 120px;
+    color: white;
+    margin: 0px;
+    padding-left: 25px;
+}
+ol{
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 80px;
+}
+li{
+    display: table-cell;
+    height: 100%;
+    width: 5%;
+    font-size: 28px;
+    padding-top: 0px;
+    text-align: center;
+    font-family: "Courier New";
+    font-weight: 500;
+    color: black;
+}
+
+li:hover{
+    background-color: red;
+}'
+
+.menu{
+    padding-top: 200px;
+}
+
+
+
+.informationContainer{
+    width: 80%;
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.information1{
+    width: 90%;
+    margin-left: 5%;
+    background-color: #444059;
+
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 44px;
+}
+
+.information2{
+    width: 42%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    background-color: #444059;
+
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 44px;
+    display: inline-block;
+}
+
+.information3{
+    width: 42%;
+    margin-right: 5%;
+    background-color: #444059;
+
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 44px;
+    display: inline-block;
+}
+
+.informationText{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: Tahoma;
+}
+
+
+@media screen and (max-width: 1000px){
+    li{
+        display: list-item;
+        margin-top: 20px;
+        width: 50%;
+        text-align: left;
+    }
+
+    ol{
+        list-style-type: none;
+        margin: 0px;
+        padding-left: 25px;
+        padding-right: 1%;
+        padding-top: 0px;
+    }
+
+    .menuBackground{
+        background-color: #FF9900;
+        width: 100%;
+        height: 425px;
+        margin: auto;
+    }
+
+    .itslearning{
+        font-family: "Courier New";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 65px;
+        line-height: 75px;
+        color: #FFFFFF;
+        margin: 0px;
+        padding-left: 25px;
+    }
+    .information2{
+        width: 90%;
+        margin-left: 5%;
+        background-color: #444059;
+    
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 44px;
+        margin-top: 20px;
+        margin-bottom:20px;
+    }
+    .information3{
+        width: 90%;
+        margin-left: 5%;
+        background-color: #444059;
+    
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 44px;
+        margin-top: 20px;
+        margin-bottom:20px;
+    }
+    .informationContainer{
+        width: 90%;
+        height: 100%;
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
